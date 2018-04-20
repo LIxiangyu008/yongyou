@@ -1,0 +1,37 @@
+$(document).ready(function(){
+		$('#owl-example').owlCarousel({
+			items:1,
+			autoPlay:true,
+			navigation:true,
+			navigationText:["",""],
+			itemsDesktop:[3000,1],
+			itemsDesktopSmall:[1199,1],
+			itemsTablet:[979,1],
+			itemsTabletSmall:[768,1],
+			itemsMobile:[479,1]
+		});
+		$('#owl-example1').owlCarousel({
+			items:1,
+			autoPlay:true,
+			navigation:true,
+			navigationText:["",""],
+			itemsDesktop:[3000,1],
+			itemsDesktopSmall:[1199,1],
+			itemsTablet:[979,1],
+			itemsTabletSmall:[768,1],
+			itemsMobile:[479,1]
+		});
+		$('#owl-example2').owlCarousel({
+			items:5,
+			autoPlay:true,
+			pagination:false,
+			navigation:true,
+			navigationText:["",""],
+			itemsDesktop:[3000,5],
+			itemsDesktopSmall:[1199,4],
+			itemsTablet:[979,3],
+			itemsTabletSmall:[768,2],
+			itemsMobile:[479,1]
+		});
+  
+	});  

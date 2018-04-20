@@ -1,0 +1,308 @@
+.cloud{
+	margin-bottom: 80px;
+}
+.cloud .bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-pager{
+	text-align: center;
+	width: 100%;
+	bottom: -45px;
+}
+.cloud-one{
+	position: relative;
+	margin: 0;
+	margin: 70px 0;
+}
+.cloud h1{
+	padding: 0 15px;
+}
+
+/*cloud-two*/
+.cloud .container{
+	border-top: 1px solid #333;
+	border-bottom: 1px solid #333;
+	padding: 40px 0 80px;
+}
+.cloud h1 span:first-child{
+	color: #D80A14;
+}
+.cloud-two h1 span:first-child{
+	font-size: 45px;
+}
+.cloud h1 span:nth-child(2){
+	padding: 0 20px;
+}
+.cloud-two h2{
+	margin: 60px 0;
+}
+.cloud .owl3 .item{
+	padding: 0 20px;
+}
+.cloud .owl3 .item img, .cloud .owl3 .item span, .cloud-two .owl3 .item a{
+	display: block;
+}
+.cloud .owl3 .item span{
+	margin: 25px 0;
+	font-size: 14px;
+	line-height:30px;
+	min-height: 180px;
+	max-height: 200px;
+	height: 180px;
+	overflow: hidden;	
+}
+.cloud .owl3 .item span>b{
+	font-weight: 400;
+}
+.cloud .owl3 .item a{
+	display: block;
+	margin: 0 auto;
+	font-size: 14px;
+	text-align: center;
+	width: 135px;
+	padding: 12px 0;
+	color: #fff;
+	background: #333;
+}
+.cloud .owl3 .item a:hover{
+	background: #D80A14;
+}
+.cloud .owl3{
+	margin-bottom: 60px;
+}
+.owl3.owl-theme .owl-controls .owl-buttons div.owl-next{
+	right: -30px;
+}
+.owl3.owl-theme .owl-controls .owl-buttons div.owl-prev{
+	left: -30px;
+}
+.owl3.owl-theme .owl-controls .owl-pagination{
+	bottom: -80px;
+}
+
+.owl.owl-theme .owl-controls .owl-page span{
+	background: url(../img/icons_qiu1.png) no-repeat;
+}
+.owl.owl-theme .owl-controls .owl-page.active span, 
+.owl.owl-theme .owl-controls.clickable .owl-page:hover span{
+	background: url(../img/icons_qiu2.png) no-repeat;
+}
+.cloud .cloud-ul li img,.cloud .cloud-ul li span,.cloud-two .cloud-ul li a{
+	display: block;
+}
+.cloud .cloud-ul li img,.cloud .owl3 .item img{
+	margin: 0 auto;
+}
+.cloud .cloud-ul li span{
+	margin: 25px 0;
+	font-size: 14px;
+	line-height:30px;
+	min-height: 180px;
+	max-height: 200px;
+		_height:expression(this.scrollHeight > 180 ? "180px" : (this.scrollHeight < 200? "200px" : "auto"));
+	height: 180px;
+	overflow: hidden;
+}
+
+.cloud .cloud-ul li span>b{
+	font-weight: 400;
+}
+.cloud .cloud-ul li a{
+	display: block;
+	margin: 0 auto;
+	font-size: 16px;
+	text-align: center;
+	width: 135px;
+	padding: 12px 0;
+	color: #fff;
+	background: #333;
+}
+.cloud .cloud-ul li a:hover{
+	background: #D80A14;
+}
+/*cloud-three*/
+.cloud-three{
+	margin-bottom: 90px;
+}
+.cloud-three .sec-wrapper{
+	height: 100%;
+	min-height: auto;
+	max-height: auto;
+}
+.cloud-three .secRight{
+	width: 35%;
+	right: 50px;
+	height: 100%;
+	background: rgba(216,10,20,0.8);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#c8D80A14,endColorstr=#c8D80A14);
+}
+.cloud-three .secRight h1{
+	color: #fff;
+	font-size: 45px;
+	padding-left: 60px;
+	margin-top: 50px;
+}
+.cloud-three:after{
+	display:block;
+	clear:both;
+	content:"";  
+	visibility:hidden;
+	height:0;
+}
+.cloud-three .bx-wrapper{
+	margin: 0;
+}
+.cloudThree-left,.cloudThree-right{
+	position: relative;
+	width: 50%;
+	float: left;
+}
+.cloud-three .bx-wrapper a.bx-prev{
+	left: 20px;
+}
+.cloud-three .bx-wrapper a.bx-next{
+	right: 20px;
+}
+.cloud-three .bx-wrapper img{
+	width: 100%;
+	min-height: 370px;
+	max-height: 400px;
+	_height:expression(this.scrollHeight > 400 ? "400px" : ( this.scrollHeight < 370 ? "370px" : "auto"))
+}
+.cloud-three .bx-wrapper .bx-pager,.cloud-three .bx-wrapper .bx-controls-auto{
+	bottom: 20px;
+}
+/*cloud-four*/
+.cloud-four .bx-wrapper .bx-prev{
+	background: url(../img/prevs1.png) center no-repeat;
+}
+.cloud-four .bx-wrapper .bx-next{
+	background: url(../img/nexts1.png) center no-repeat;
+}
+.cloud-four .bx-wrapper .bx-prev:hover{
+	background: url(../img/prevs2.png) center no-repeat;
+}
+.cloud-four .bx-wrapper .bx-next:hover{
+	background: url(../img/nexts2.png) center no-repeat;
+}
+.cloudFour-div{
+	margin-top: 80px;
+}
+.cloud-four .bx-wrapper img{
+	margin: 0;
+}
+.cloud-four ul li{
+	padding: 0 20px;
+}
+.cloud-four .bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto{
+	bottom: -80px;
+}
+
+
+
+
+/*cloud-six*/
+.cloud-six{
+	margin-top: 80px;
+}
+.cloud-six:after,.cloudSix-div:after,.cloudSixleft-bottom:after{
+	display:block;
+	clear:both;
+	content:"";  
+	visibility:hidden;
+	height:0;
+}
+.cloudSix-div{
+	font-size: 16px;
+	padding: 0 100px;
+}
+.cloud-six.cloud h1{
+	border-bottom: 0;
+	padding: 40px 15px 20px;
+}
+.cloud-six.cloud h2{
+	color: #fff;
+	border-top: 0;
+	padding: 20px 0 40px;
+}
+.cloud-six .cloudSix-left,.cloud-six .cloudSix-right{
+	width: 49.8%;
+	height: 435px;
+	overflow: hidden;
+	line-height: 30px;
+	text-indent: 32px;
+}
+.cloud-six .cloudSix-left a,.cloud-six .cloudSix-right a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	color: #333;
+}
+.cloudSixleft-bottom .bottomLeft,.cloudSixleft-bottom .bottomRight{
+	height: 100%;
+	width: 49%;
+	background: url(../img/bg.jpg) no-repeat;
+	background-size:100%; 
+	-moz-background-size:100%;
+	-webkit-background-size:100%;
+	-o-background-size:100%;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='C:\Users\m1860\Desktop\用友\img\bg.jpg',sizingMethod='scale'); 
+}
+.cloudSixleft-bottom .bottomLeft a,.cloudSixleft-bottom .bottomRight a{
+	display: block;
+	color: #fff;
+	width: 100%;
+	height: 100%;
+}
+
+.cloudSixleft-bottom .bottomLeft span,.cloudSixleft-bottom .bottomRight span{
+	display: block;
+	width: 100%;
+	height: 100%;
+	padding: 10px;
+	text-indent: 36px;
+}
+.cloud-six .cloudSix-left,.cloudSixleft-bottom .bottomLeft{
+	float: left;
+}
+.cloud-six .cloudSix-right,.cloudSixleft-bottom .bottomRight{
+	float: right;
+}
+.cloud-six .cloudSix-right{
+	background: url(../img/bg.jpg) no-repeat;
+	background-size:100%; 
+	-moz-background-size:100%;
+	-webkit-background-size:100%;
+	-o-background-size:100%;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='C:\Users\m1860\Desktop\用友\img\bg.jpg',sizingMethod='scale'); 
+}
+.cloud-six .cloudSix-right a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	color: #fff;
+}
+.cloud-six .cloudSix-right span{
+	width: 100%;
+	height: 100%;
+	display: block;
+	padding: 20px;
+}
+.cloud-six .cloudSix-left .cloudSixleft-top{
+	/*padding-bottom:15px;*/
+	height: 200px;
+}
+.cloud-six .cloudSix-left .cloudSixleft-top span{
+	display: block;
+	width: 100%;
+	height: 100%;
+	padding: 10px;
+}
+.cloud-six .cloudSix-left .cloudSixleft-top span img{
+	width: 100%;
+	height: 100%;
+}
+.cloudSix-right img{
+	width: 100%;
+	height: 100%;
+}
+.cloud-six .cloudSix-left .cloudSixleft-bottom{
+	height: 235px;	
+}

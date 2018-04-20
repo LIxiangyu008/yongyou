@@ -1,0 +1,52 @@
+$(document).ready(function(){
+$('#owl-exampleM').owlCarousel({
+			items:1,
+			autoPlay:true,
+			navigation:false,
+			itemsDesktop:[3000,1],
+			itemsDesktopSmall:[1199,1],
+			itemsTablet:[979,1],
+			itemsTabletSmall:[768,1],
+			itemsMobile:[479,1]
+		});
+$('#owl-exampleM1').owlCarousel({
+			items:1,
+			autoPlay:true,
+			navigation:true,
+			navigationText:["",""],
+			itemsDesktop:[3000,1],
+			itemsDesktopSmall:[1199,1],
+			itemsTablet:[979,1],
+			itemsTabletSmall:[768,1],
+			itemsMobile:[479,1]
+	});
+$('#owl-exampleM2').owlCarousel({
+			items:1,
+			autoPlay:true,
+			navigation:true,
+			navigationText:["",""],
+			itemsDesktop:[3000,1],
+			itemsDesktopSmall:[1199,1],
+			itemsTablet:[979,1],
+			itemsTabletSmall:[768,1],
+			itemsMobile:[479,1]
+		});
+$('#owl-exampleM3').owlCarousel({
+			items:1,
+			autoPlay:true,
+			navigation:true,
+			navigationText:["",""],
+			itemsDesktop:[3000,1],
+			itemsDesktopSmall:[1199,1],
+			itemsTablet:[979,1],
+			itemsTabletSmall:[768,1],
+			itemsMobile:[479,1]
+		});
+});  
+$(function(){
+	var li = $('.mkTwo-top ul li');
+	li.click(function(){
+		$(this).addClass('active').siblings().removeClass('active');
+		$('.mkTwo-list').eq($(this).index()).addClass('active').siblings().removeClass('active');
+	})
+})

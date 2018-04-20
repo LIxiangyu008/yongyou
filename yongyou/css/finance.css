@@ -1,0 +1,235 @@
+.finance{
+	position: relative;
+	width: 100%;
+	height: 700px;
+}
+.finance h1{
+	width: 100%;
+	position: absolute;
+	top: 10%;
+	left: 18%;
+	color: #fff;
+}
+.finance .finTwo-right h1 span{
+	font-size: 50px;
+	padding: 0 20px 20px;
+	border-bottom: 1px solid #fff;
+}
+.finance .financeBg{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.finance h2{
+	text-align: center;
+	width: 200px;
+	height: 60px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	color: #fff;
+}
+.finance-one .bx-wrapper{
+	margin: 0;
+}
+.finance-two.finance ul li{
+	border: 0;
+}
+.finance-two:after{
+	display:block;
+	clear:both;
+	content:"";  
+	visibility:hidden;
+	height:0;
+}
+.finance .finTwo-left,.finance .finTwo-right{
+	position: relative;
+	float: left;
+	height: 100%;
+}
+.finance .finTwo-left{
+	width: 60%;
+}
+.finance .finTwo-right{
+	pointer-events:none;
+	width: 38%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	right: 20px;
+	background: rgba(216,10,20,0.7);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#b2D80A14,endColorstr=#b2D80A14);
+}
+.finance .finTwo-left .finLeft-div{
+	width: 80%;
+	height: 500px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	color: #D80A14;
+}
+
+.bx-wrapper .bx-pager.bx-default-pager a:hover, 
+.bx-wrapper .bx-pager.bx-default-pager a.active, 
+.bx-wrapper .bx-pager.bx-default-pager a:focus{
+	background: url(../img/icons_qiu2.png) no-repeat;
+}
+.bx-wrapper .bx-pager.bx-default-pager a{
+	background: url(../img/icons_qiu1.png) no-repeat;
+}
+.finance .bx-wrapper .bx-pager.bx-default-pager a{
+	
+}
+
+.finance .bx-wrapper .bx-prev{
+	background: url(../img/prevs1.png) center no-repeat;
+}
+.finance .bx-wrapper .bx-next{
+	background: url(../img/nexts1.png) center no-repeat;
+}
+.finance .bx-wrapper .bx-prev:hover{
+	background: url(../img/prevs2.png) center no-repeat;
+}
+.finance .bx-wrapper .bx-next:hover{
+	background: url(../img/nexts2.png) center no-repeat;
+}
+
+.finance .bx-wrapper img{
+	height: 100%;
+}
+.finance .bx-wrapper{
+	margin: 0;
+	height: 100%;
+	background: none;
+}
+.finance .bx-wrapper .bx-viewport{
+	height: 100%!important;
+}
+.finance .bx-wrapper .bx-viewport ul{ 
+	height: 100%!important;
+}
+.finance .bx-wrapper .bx-viewport ul li{  
+	height: 100%!important;   
+}
+.finance .financeDiv{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 10%;
+	left: 0;
+}
+.finance .financeDiv h3{
+	margin-top: 60px;
+	text-align: center;
+	color: #fff;
+	font-size: 30px;
+}
+.finance .financeDiv p{
+	opacity: 0;
+	filter: alpha(opacity=0);
+    -ms-filter: progid:DXImageTransform.Microsoft.Alpha(opacity=(0));
+	color: #fff;
+	margin-top: 20px;
+	padding: 0 15px;
+}
+.finance ul li{
+	border: 2px solid #7d7877;
+}
+/*finance-four*/
+.four-div,.four-ul{
+	float: left;
+}
+.four-div{
+	margin-top: 75px;
+	width: 65%;
+	height: 70%;
+	color: #333;
+	background: #fff;
+	border: 2px solid #7d7877;
+	font-size: 22px;
+	padding: 50px 25px;
+}
+.four-div span{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.four-ul{
+	width: 35%;
+	height: 100%;
+}
+/*finance-five*/
+.finance-five.finance .finTwo-left .finLeft-div{
+	height: 425px;
+}
+.finance-five ul{
+	height: 100%;
+}
+.finance-five ul li{
+	height: 100%;
+	width: 49%;
+	position: relative;
+	padding: 0;
+}
+.finance-five ul li a{
+	display:block;
+	width: 100%;
+	height: 100%;
+}
+.finance-five ul li a .financeDiv{
+	width: auto;
+}
+.finance-five ul li img{
+	width: 100%;
+	height: 100%;
+}
+.cloud-five.sections{
+	margin: 0;
+}
+.cloud-five .cloudFive-div{
+	padding: 0;
+}
+.finance .owl{
+	height: 100%;
+}
+.finance .owl .owl-wrapper-outer{
+	height: 100%;
+}
+.finance .owl .owl-wrapper-outer .owl-wrapper{
+	height: 100%;
+}
+.finance .owl .owl-wrapper-outer .owl-wrapper .owl-item{
+	height: 100%;
+}
+.finLeft-div .owl .item{
+	height: 100%;
+	margin: 0 13px;
+}
+.finLeft-div #owl-exampleF3 .item,.finLeft-div #owl-exampleF1 .item{
+	margin: 0;
+}
+.finLeft-div .owl .item a{
+	position: relative;
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.finLeft-div .owl .item a img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.owl3.owl-theme .owl-controls .owl-buttons div.owl-prev{
+	left: -50px;
+}
+.owl3.owl-theme .owl-controls .owl-buttons div.owl-next{
+	right: -50px;
+}

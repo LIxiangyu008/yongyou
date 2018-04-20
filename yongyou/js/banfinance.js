@@ -1,0 +1,65 @@
+$(function(){
+	var li  = $('.owl .item')
+	li.hover(function(){
+		$(this).find('.financeDiv').stop().animate({top:0},300)
+		$(this).find('.financeDiv p').stop().animate({opacity:1},300)
+	},function(){
+		$(this).find('.financeDiv').stop().animate({top:'10%'},300)
+		$(this).find('.financeDiv p').stop().animate({opacity:0},300)
+	})
+})
+$('#owl-exampleF').owlCarousel({
+			items:1,
+			autoPlay:true,
+			navigation:true,
+			navigationText:["",""],
+			itemsDesktop:[3000,1],
+			itemsDesktopSmall:[1199,1],
+			itemsTablet:[979,1],
+			itemsTabletSmall:[768,1],
+			itemsMobile:[479,1]
+		});
+$('#owl-exampleF1').owlCarousel({
+			items:1,
+			autoPlay:true,
+			navigation:false,
+			itemsDesktop:[3000,1],
+			itemsDesktopSmall:[1199,1],
+			itemsTablet:[979,1],
+			itemsTabletSmall:[768,1],
+			itemsMobile:[479,1]
+		});
+$('#owl-exampleF2').owlCarousel({
+			items:3,
+			autoPlay:true,
+			pagination:false,
+			navigation:true,
+			navigationText:["",""],
+			itemsDesktop:[3000,3],
+			itemsDesktopSmall:[1199,3],
+			itemsTablet:[979,2],
+			itemsTabletSmall:[768,1],
+			itemsMobile:[479,1]
+		});
+$('#owl-exampleF3').owlCarousel({
+			items:1,
+			autoPlay:true,
+			navigation:false,
+			itemsDesktop:[3000,1],
+			itemsDesktopSmall:[1199,1],
+			itemsTablet:[979,1],
+			itemsTabletSmall:[768,1],
+			itemsMobile:[479,1]
+		});
+$('#owl-exampleF4').owlCarousel({
+			items:2,
+			autoPlay:true,
+			pagination:false,
+			navigation:true,
+			navigationText:["",""],
+			itemsDesktop:[3000,2],
+			itemsDesktopSmall:[1199,2],
+			itemsTablet:[979,2],
+			itemsTabletSmall:[768,1],
+			itemsMobile:[479,1]
+	});	
