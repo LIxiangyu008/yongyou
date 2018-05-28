@@ -4,34 +4,31 @@
 					'<div class="footer-top">'+
 						'<div class="footer-left">'+
 						'<ul>'+
+						'<li><span>公司介绍</span></li>'+
+						'<li><a target="_blank" href="http://www.yonyou.com/yy/guanyu.html?id=0&v=0.0.3">公司简介</a></li>'+
+						'<li><a target="_blank" href="http://www.yonyou.com/yy/guanyu.html?id=1&v=0.0.3">成员企业</a></li>'+
+						'<li><a target="_blank" href="http://www.yonyou.com/yy/lianxiyonyou.html?v=0.0.10">联系用友</a></li>'+
+						'</ul>'+
+						'<ul>'+
 						'<li><span>市场活动</span></li>'+
-						'<li><a target="_blank" href="http://www.yonyou.com/NetMeeting">网络研讨会</a></li>'+
-						'<li><a target="_blank" href="/yy/newsCenterPage.html?id=1">市场活动</a></li>'+
-						'<li><a target="_blank" href="/yy/newsCenterPage.html?id=1">经典活动</a></li>'+
+						'<li><a target="_blank" href="http://www.yonyou.com/yy/newsCenterPage.html?id=1">市场活动</a></li>'+
 						'</ul>'+
 						'<ul>'+
-						'<li><span>合作伙伴</span></li>'+
-						'<li><a target="_blank" href="/yy/yingxiaohuoban.html">股份伙伴</a></li>'+
-						'<li><a target="_blank" href="http://oo.chanjet.com/index.php?m=content&amp;c=index&amp;a=lists&amp;catid=136">畅捷通伙伴</a></li>'+
+						'<li><span>企业动态</span></li>'+
+						'<li><a target="_blank" href="http://www.yonyou.com/yy/newsCenterPage.html">新闻</a></li>'+
 						'</ul>'+
 						'<ul>'+
-						'<li><span>资料下载</span></li>'+
-						'<li><a target="_blank" href="/yy/download.html?id=0">今日用友</a></li><li><a target="_blank" href="/yy/download.html?id=1">白皮书</a></li>'+
-						'<li><a target="_blank" href="/yy/download.html?id=2">用友app</a></li>'+
+						'<li><span>案例集锦</span></li>'+
+						'<li><a target="_blank" href="https://www.yonyoucloud.com/cloudClient.html">经典案例</a></li>'+
 						'</ul>'+
 						'</div>'+
 						'<div class="footer-right">'+
-						'<ul>'+
-						'<li><a class="bai" target="_blank" href="/yy/lianxiyonyou.html?id=0&amp;v=0.0.1">联系用友网络</a></li>'+
-						'<li><a class="bai" target="_blank" href="/yy/lianxiyonyou.html?id=1&amp;v=0.0.1">联系集团成员</a></li>'+
-						'<li><a class="bai" target="_blank" href="/yy/lianxiyonyou.html?id=2&amp;v=0.0.1">联系用友国际</a></li>'+
-						'</ul>'+
 						'<ul class="footerTwo" style="color: #A5A5A5;">'+
 						'<li>公司地址<br><span>北京市海淀区北清路68号用友产业园</span></li>'+
 						'<li>邮编:100094</li><li>客服热线<br><span class="tel">400-6600-588</span><br></li>'+
 						'</ul>'+
 						'<ul class="footerUl">'+
-						'<li></li>'+
+						'<li><img src="http://www.yonyou.com/static/images/yyewm.jpg"></li>'+
 						'</ul>'+
 						'</div>'+
 				'</div>'+

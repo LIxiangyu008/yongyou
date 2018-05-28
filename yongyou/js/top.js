@@ -29,11 +29,11 @@ $(function(){
 	    							'<li><input type="text" placeholder="与用友的关系" title="与用友的关系"></li>'+
 	    							'<li style="margin:0;">是否愿意接受邮件、电话'+
 	    							'<div class="radio-div">'+
-	    							'<label class="radio-inline"><input type="radio" name="inlineRadioOptions"  value="是">是</label>'+
-	    							'<label class="radio-inline" style="margin:0"><input type="radio" name="inlineRadioOptions"  value="否">否</label>'+
+	    							'<label ><input type="radio" name="inlineRadioOptions"  value="是"><b>是</b></label>'+
+	    							'<label style="margin:0"><input type="radio" name="inlineRadioOptions"  value="否"><b>否</b></label>'+
 	    							'</div>'+
 	    							'</li>'+
-	    							'<li style="background:none;margin:0;"><label class="checkbox-inline"><input type="checkbox">同意协议</label></li>'+
+	    							'<li style="background:none;margin:0;"><label class="flexbox"><input type="checkbox"><b>同意协议</b></label></li>'+
 	    							'<li style="background:none;text-align:center"><button>提交</button></li>'+
 	    						'</ul>'+
 	    					'</form>'+
