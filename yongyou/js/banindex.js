@@ -9,12 +9,25 @@ $(document).ready(function(){
 		itemsDesktop:[3000,3],
 		itemsDesktopSmall:[1199,2],
 		itemsTablet:[979,2],
-		itemsTabletSmall:[768,1],
-		itemsMobile:[479,1]
+		itemsTabletSmall:[768,2],
+		itemsMobile:[599,3]
+	});
+	$('#slider1s').owlCarousel({
+		items:3,
+		autoPlay:false,
+		pagination:false,
+		navigation:true,
+		stopOnHover:true,
+		navigationText:["",""],
+		itemsDesktop:[3000,3],
+		itemsDesktopSmall:[1199,2],
+		itemsTablet:[979,2],
+		itemsTabletSmall:[768,2],
+		itemsMobile:[599,3]
 	});
 		$('#owl-example').owlCarousel({
 			items:1,
-			autoPlay:false,
+			autoPlay:3000,
 			pagination:false,
 			navigation:true,
 			stopOnHover:true,
@@ -45,11 +58,11 @@ $(document).ready(function(){
 			navigation:true,
 			stopOnHover:true,
 			navigationText:["",""],
-			itemsDesktop:[3000,5],
-			itemsDesktopSmall:[1199,5],
+			itemsDesktop:[3000,4],
+			itemsDesktopSmall:[1199,4],
 			itemsTablet:[979,4],
 			itemsTabletSmall:[768,3],
-			itemsMobile:[479,2]
+			itemsMobile:[479,3]
 		});
   		$('#owl-example3').owlCarousel({
 			items:3,

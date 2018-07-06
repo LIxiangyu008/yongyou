@@ -1,0 +1,267 @@
+.part {
+	width:100%;
+	text-align: center;	
+	min-width: 1280px;
+}
+.content-box {
+	width:100%;
+	margin:0 auto;	
+}
+.content-box img {
+	max-width: 100%;
+}
+.part1 {	
+	 padding-top: 106px; 
+}
+
+.part8_content {
+	margin:0 auto;
+	position:relative;
+	width:1200px;
+	height:429px;
+	background:url(../images/youhutong/p8_main.png) no-repeat;
+}
+.part8_software{
+	position: absolute;
+	top:42px;
+	left:6px;
+	width:1200px;
+	height:101px;
+	background:none;
+}
+.part8_software_info{
+	cursor:pointer;
+	height:35px;
+	padding-top:66px;
+	font:12px "微软雅黑", "黑体";
+	color:#757575;
+}
+.part8_software_info:hover{
+	text-decoration:inherit;
+}
+.part8_software_info span{
+	color:#e40000;
+}
+.part8_software_info1{
+	color:#f93f4b;
+	font-size:14px;
+	padding-left:15px;
+	font-family:"微软雅黑", "黑体";
+}
+.part8_software_info1:hover{
+	text-decoration:inherit;
+}
+.part8_software_1{
+	position: absolute;
+	top:1px;
+	left:10px;
+	width:180px;
+	background:none;
+}
+.part8_software_2{
+	position: absolute;
+	top:1px;
+	left:208px;
+	width:200px;
+	background:none;
+}
+.part8_software_3{
+	position: absolute;
+	top:1px;
+	left:440px;
+	width:165px;
+	background:none;
+}
+.part8_software_4{
+	position: absolute;
+	top:1px;
+	left:645px;
+	width:145px;
+	background:none;
+}
+.part8_software_5{
+	position: absolute;
+	top:26px;
+	left:825px;
+	width:80px;
+	height:25px;
+	cursor:pointer;
+	background:none;
+}
+.part8_software_6{
+	position: absolute;
+	top:26px;
+	left:945px;
+	width:80px;
+	height:25px;
+	cursor:pointer;
+	background:none;
+}
+.part8_software_7{
+	position: absolute;
+	top:26px;
+	left:1065px;
+	width:80px;
+	height:25px;
+	cursor:pointer;
+	background:none;
+	
+}
+.part8_software_8{
+	position: absolute;
+	top:54px;
+	left:825px;
+	width:80px;
+	height:23px;
+	cursor:pointer;
+	background:none;
+}
+.part8_software_9{
+	position: absolute;
+	top:54px;
+	left:945px;
+	width:80px;
+	height:23px;
+	cursor:pointer;
+	background:none;
+}
+.part8_software_10{
+	position: absolute;
+	top:54px;
+	left:1065px;
+	width:60px;
+	height:23px;
+	cursor:pointer;
+	background:none;
+}
+
+
+.part8_service{
+	position: absolute;
+	top:198px;
+	left:5px;
+	width:615px;
+	height:164px;
+	background:none;
+}
+.part8_service_info{
+	cursor:pointer;
+	height:20px;
+	padding-top:38px;
+	font:12px "微软雅黑", "黑体";
+	color:#757575;
+}
+.part8_service_info:hover{
+	text-decoration:inherit;
+}
+.part8_service_1{
+	position: absolute;
+	top:20px;
+	left:30px;
+	width:90px;
+	cursor:pointer;
+	background:none;
+}
+.part8_service_2{
+	position: absolute;
+	top:20px;
+	left:192px;
+	width:90px;
+	cursor:pointer;
+	background:none;
+}
+.part8_service_3{
+	position: absolute;
+	top:20px;
+	left:355px;
+	width:90px;
+	cursor:pointer;
+	background:none;
+}
+.part8_service_4{
+	position: absolute;
+	top:20px;
+	left:490px;
+	width:90px;
+	cursor:pointer;
+	background:none;
+}
+.part8_service_5{
+	position: absolute;
+	top:90px;
+	left:30px;
+	width:90px;
+	cursor:pointer;
+	background:none;
+}
+.part8_service_6{
+	position: absolute;
+	top:90px;
+	left:192px;
+	width:90px;
+	cursor:pointer;
+	background:none;
+}
+.part8_service_7{
+	position: absolute;
+	top:90px;
+	left:355px;
+	width:90px;
+	cursor:pointer;
+	background:none;
+}
+.part8_service_8{
+	position: absolute;
+	top:90px;
+	left:490px;
+	width:90px;
+	cursor:pointer;
+	background:none;
+}
+
+
+.part8_finance{
+	position: absolute;
+	top:198px;
+	left:640px;
+	width:565px;
+	height:164px;
+	background:none;
+}
+.part8_finance_info{
+	cursor:pointer;
+	height:20px;
+	padding-top:42px;
+	font:12px "微软雅黑", "黑体";
+	color:#757575;
+}
+.part8_finance_info:hover{
+	text-decoration:inherit;
+}
+.part8_finance_1{
+	position: absolute;
+	top:55px;
+	left:40px;
+	width:120px;
+	cursor:pointer;
+	background:none;
+}
+.part8_finance_2{
+	position: absolute;
+	top:55px;
+	left:230px;
+	width:120px;
+	cursor:pointer;
+	background:none;
+}
+.part8_finance_3{
+	position: absolute;
+	top:55px;
+	left:412px;
+	width:120px;
+	cursor:pointer;
+	background:none;
+}
+
+
+
